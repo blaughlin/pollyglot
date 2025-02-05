@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300;400;700&family=Poppins:wght@300;400&display=swap');
+#pollyglot {
+    color: #32CD32;
+    font-family: Big Shoulders Display;
+    font-size: 43.42px;
+    font-weight: 800;
+    text-align: left;
+    margin-bottom: 0.1rem;
+}
+
+#translation {
+    font-family: Poppins;
+    font-size: 12.21px;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 0.1rem;
+    color: #FFFFFF;
+
+}
+
+.parrot {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 10px;
+}
+
+.box {
+    background-image: url('assets/World Map 1.png');
+    background-size: cover;
+    width: 80%;
+    max-width: 350px;
+    height: 150px;
+    background-color: #0D182E;
+    display: flex; /* Enables flexbox */
+    align-items: center; /* Aligns items vertically */
+    justify-content: center; /* Centers content */
+    text-align: left; /* Aligns text left */
+    margin: 50px auto;
+    /* border-radius: 10px; */
+    padding: 20px;
+    gap: 20px; /* Space between image and text */
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 80%;
+  max-width: 350px;
+  margin: 30px auto; /* Centers it on the page */
+  padding: 10px;
+  border: 4px solid #252F42; /* Border color and thickness */
+  border-radius: 15px; /* Rounded corners */
+  margin-top: 10px;
+
+}
+
+.instructions {
+font-family: Poppins;
+font-size: 20px;
+font-weight: 700;
+line-height: 30px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #035A9D;
+
+}
+.textArea {
+  width: 100%;
+  max-width: 300px;
+  height: 100px;
+  font-size: 1rem;
+  padding: 10px;
+  border: 2px solid #EFF0F4;
+  background-color: #EFF0F4;
+  border-radius: 5px;
+  text-align: left;
+  resize: none;
+}
+.button-container {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between the flag and label */
+  width: 100%;
+  /* max-width: 300px; */
+  /* justify-content: space-between; */
+  padding: 10px;
+  background: #fff;
+
+}
+
+/* Flag image styling */
+.flag {
+  width: 30px;
+  height: 20px;
+  object-fit: cover;
+}
+
+.button {
+font-family: 'Poppins', sans-serif;
+  width: 100%; /* Makes button full width */
+  max-width: 325px; /* Ensures it doesn't get too large */
+
+  background-color: #035A9D;
+  color: #FFFFFF;
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background-color 0.3s;
+}
+
+#translate:hover {
+  background-color: #0056b3;
+}
+
+#startOver:hover {
+  background-color: #0056b3;
+} 
+
+.result-area {
+  display: none;
+}

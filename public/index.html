@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="wrapper">
+        <div class="box">
+            <img id="parrot" src="assets/parrot.png" alt="parrot">
+
+            <div id ="title">
+                <h1 id="pollyglot">PollyGlot</h1>
+                <p id="translation">Perfect Translation Every Time</p>
+            </div>
+        </div>
+        <div class="container">
+            <h2 id="top-text" class="instructions">Text to Translate 👇</h2>
+            <textarea  class="textArea" id="input" placeholder="How are you?"></textarea>
+                <h2 id="language" class="instructions">Select Language 👇</h2>
+                <div class="translation area" id="translation-area">
+
+                    <div class="button-container">
+                        <input type="radio" id="french" name="language" value="french" checked>
+                        <label for="french">French</label>
+                        <img class="flag" src="assets/fr-flag.png" alt="French Flag">
+                    </div>
+                    <div class="button-container">
+                        <input type="radio" id="spanish " name="language" value="spanish">
+                        <label for="spanish">Spanish</label>
+                        <img class="flag" src="assets/sp-flag.png" alt="Spanish Flag">
+                    </div>
+                    <div class="button-container" >
+                        <input type="radio" id="japanese " name="language" value="japanese">
+                        <label for="spanish">Japanese</label>
+                        <img class="flag" src="assets/jpn-flag.png" alt="Japanese Flag">
+                    </div>
+
+                </div>
+                <button class="button" id="translate">Translate</button>
+
+                <div class="result-area" id ="result-area">
+                    <h2 id="tranlationTitle" class="instructions">Your Translation 👇</h2>
+                    <textarea class="textArea" id="output" placeholder="How are you?"></textarea>
+                     <button class="button" id="startOver">Start Over</button>
+
+                </div>
+        </div>
+
+        </div>
+
+
+
+
+        <!-- Your HTML here -->
+        <script src="source.js" type="module"></script>
+    </body>
+</html>
